@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Search",
+  "short_name": "Search",
+  "description": "Adds a Youtube Search item to the right click menu",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/search.png"
+  },
+  "background": {"page": "background.html"}
+}
